@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:layout_margin="5dp">
+
+        <TextView
+            android:id="@+id/idForStudentProfileDateShowTextView"
+            android:layout_width="180dp"
+            android:layout_height="match_parent"
+            android:text="2012/12/12"
+            android:gravity="center_vertical"
+            android:textSize="25dp"/>
+
+        <TextView
+            android:id="@+id/idForStudentProfilePresentOrNotTextView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Absent"
+            android:gravity="center_vertical|right"
+            android:textSize="25dp"/>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
